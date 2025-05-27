@@ -1,0 +1,512 @@
+{
+  "nodes": [
+    {
+      "id": "src/screens/HomeDesktop/HomeDesktop.jsx",
+      "label": "HomeDesktop",
+      "routes": [
+        "/*",
+        "/home-u8226-desktop"
+      ],
+      "dataModelId": "8205:54753",
+      "isRoot": true
+    },
+    {
+      "id": "src/screens/IndividualFeed/IndividualFeed.jsx",
+      "label": "IndividualFeed",
+      "routes": [
+        "/individual-feed-intake-monitoring-u8226-desktop"
+      ],
+      "dataModelId": "8205:54745"
+    },
+    {
+      "id": "src/screens/CowNoseIdDesktop/CowNoseIdDesktop.jsx",
+      "label": "CowNoseIdDesktop",
+      "routes": [
+        "/cow-nose-id-u8226-desktop"
+      ],
+      "dataModelId": "8205:54747"
+    },
+    {
+      "id": "src/screens/ContactUsDesktop/ContactUsDesktop.jsx",
+      "label": "ContactUsDesktop",
+      "routes": [
+        "/contact-us-u8226-desktop"
+      ],
+      "dataModelId": "8205:54741"
+    },
+    {
+      "id": "src/screens/OurTechnology/OurTechnology.jsx",
+      "label": "OurTechnology",
+      "routes": [
+        "/our-technology-u8226-desktop"
+      ],
+      "dataModelId": "8205:54751"
+    },
+    {
+      "id": "src/screens/ContinuousPen/ContinuousPen.jsx",
+      "label": "ContinuousPen",
+      "routes": [
+        "/continuous-pen-monitoring-u8226-desktop"
+      ],
+      "dataModelId": "8205:54749"
+    },
+    {
+      "id": "src/screens/ForInvestors/ForInvestors.jsx",
+      "label": "ForInvestors",
+      "routes": [
+        "/for-investors-u8226-desktop"
+      ],
+      "dataModelId": "8205:54743"
+    }
+  ],
+  "edges": [
+    {
+      "id": "src/screens/HomeDesktop/sections/NavigationBarSection/NavigationBarSection.jsx:67:12-to-src/screens/OurTechnology/OurTechnology.jsx",
+      "source": "src/screens/HomeDesktop/HomeDesktop.jsx",
+      "target": "src/screens/OurTechnology/OurTechnology.jsx",
+      "data": {
+        "viaRoute": "/our-technology-u8226-desktop",
+        "trigger": {
+          "element": "<Link\n              to=\"/our-technology-u8226-desktop\"\n              className=\"font-text-regular-medium font-[number:var(--text-regular-medium-font-weight)] text-[#faf6eb] text-[length:var(--text-regular-medium-font-size)] tracking-[var(--text-regular-medium-letter-spacing)] leading-[var(--text-regular-medium-line-height)] whitespace-nowrap [font-style:var(--text-regular-medium-font-style)]\"\n            >\n              Explore\n            </Link>",
+          "line": 67,
+          "endLine": 72,
+          "column": 12,
+          "endColumn": 19,
+          "sourceFile": "src/screens/HomeDesktop/sections/NavigationBarSection/NavigationBarSection.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/HomeDesktop/sections/CallToActionSection/CallToActionSection.jsx:23:14-to-src/screens/ContactUsDesktop/ContactUsDesktop.jsx",
+      "source": "src/screens/HomeDesktop/HomeDesktop.jsx",
+      "target": "src/screens/ContactUsDesktop/ContactUsDesktop.jsx",
+      "data": {
+        "viaRoute": "/contact-us-u8226-desktop",
+        "trigger": {
+          "element": "<Link to=\"/contact-us-u8226-desktop\">\n                <Button className=\"h-auto px-6 py-2.5 rounded-xl bg-[color:var(--primitives-color-fern-frond)] text-[#faf6eb] font-text-regular-medium shadow-[0px_1px_2px_#0000000d,inset_0px_-2px_1px_#00000033,inset_0px_0px_0px_1px_#00000026,inset_0px_2px_1px_#ffffff40,inset_0px_32px_24px_#ffffff0d]\">\n                  Contact\n                </Button>\n              </Link>",
+          "line": 23,
+          "endLine": 27,
+          "column": 14,
+          "endColumn": 21,
+          "sourceFile": "src/screens/HomeDesktop/sections/CallToActionSection/CallToActionSection.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/IndividualFeed/sections/NavbarSection/NavbarSection.jsx:67:12-to-src/screens/OurTechnology/OurTechnology.jsx",
+      "source": "src/screens/IndividualFeed/IndividualFeed.jsx",
+      "target": "src/screens/OurTechnology/OurTechnology.jsx",
+      "data": {
+        "viaRoute": "/our-technology-u8226-desktop",
+        "trigger": {
+          "element": "<Link\n              to=\"/our-technology-u8226-desktop\"\n              className=\"font-text-regular-medium font-[number:var(--text-regular-medium-font-weight)] text-[#faf6eb] text-[length:var(--text-regular-medium-font-size)] tracking-[var(--text-regular-medium-letter-spacing)] leading-[var(--text-regular-medium-line-height)] whitespace-nowrap [font-style:var(--text-regular-medium-font-style)]\"\n            >\n              Explore\n            </Link>",
+          "line": 67,
+          "endLine": 72,
+          "column": 12,
+          "endColumn": 19,
+          "sourceFile": "src/screens/IndividualFeed/sections/NavbarSection/NavbarSection.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/IndividualFeed/sections/HeaderSection/HeaderSection.jsx:31:16-to-src/screens/ContactUsDesktop/ContactUsDesktop.jsx",
+      "source": "src/screens/IndividualFeed/IndividualFeed.jsx",
+      "target": "src/screens/ContactUsDesktop/ContactUsDesktop.jsx",
+      "data": {
+        "viaRoute": "/contact-us-u8226-desktop",
+        "trigger": {
+          "element": "<Link to=\"/contact-us-u8226-desktop\">\n                  <span className=\"font-text-regular-medium font-[number:var(--text-regular-medium-font-weight)] text-[length:var(--text-regular-medium-font-size)] tracking-[var(--text-regular-medium-letter-spacing)] leading-[var(--text-regular-medium-line-height)] [font-style:var(--text-regular-medium-font-style)]\">\n                    Contact Us\n                  </span>\n                </Link>",
+          "line": 31,
+          "endLine": 35,
+          "column": 16,
+          "endColumn": 23,
+          "sourceFile": "src/screens/IndividualFeed/sections/HeaderSection/HeaderSection.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/IndividualFeed/sections/CallToActionSection/CallToActionSection.jsx:33:14-to-src/screens/ContactUsDesktop/ContactUsDesktop.jsx",
+      "source": "src/screens/IndividualFeed/IndividualFeed.jsx",
+      "target": "src/screens/ContactUsDesktop/ContactUsDesktop.jsx",
+      "data": {
+        "viaRoute": "/contact-us-u8226-desktop",
+        "trigger": {
+          "element": "<Link to=\"/contact-us-u8226-desktop\">Contact Us</Link>",
+          "line": 33,
+          "endLine": 33,
+          "column": 14,
+          "endColumn": 68,
+          "sourceFile": "src/screens/IndividualFeed/sections/CallToActionSection/CallToActionSection.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/IndividualFeed/sections/FooterSection/FooterSection.jsx:49:12-to-src/screens/ContactUsDesktop/ContactUsDesktop.jsx",
+      "source": "src/screens/IndividualFeed/IndividualFeed.jsx",
+      "target": "src/screens/ContactUsDesktop/ContactUsDesktop.jsx",
+      "data": {
+        "viaRoute": "/contact-us-u8226-desktop",
+        "trigger": {
+          "element": "<Link\n              className=\"font-text-small-semi-bold text-[length:var(--text-small-semi-bold-font-size)] leading-[var(--text-small-semi-bold-line-height)] font-[number:var(--text-small-semi-bold-font-weight)] tracking-[var(--text-small-semi-bold-letter-spacing)] text-[color:var(--color-schemes-color-scheme-1-text)] whitespace-nowrap [font-style:var(--text-small-semi-bold-font-style)]\"\n              to=\"/contact-us-u8226-desktop\"\n            >\n              Contact Us\n            </Link>",
+          "line": 49,
+          "endLine": 54,
+          "column": 12,
+          "endColumn": 19,
+          "sourceFile": "src/screens/IndividualFeed/sections/FooterSection/FooterSection.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/IndividualFeed/sections/FooterSection/FooterSection.jsx:56:12-to-src/screens/OurTechnology/OurTechnology.jsx",
+      "source": "src/screens/IndividualFeed/IndividualFeed.jsx",
+      "target": "src/screens/OurTechnology/OurTechnology.jsx",
+      "data": {
+        "viaRoute": "/our-technology-u8226-desktop",
+        "trigger": {
+          "element": "<Link\n              className=\"font-text-small-semi-bold text-[length:var(--text-small-semi-bold-font-size)] leading-[var(--text-small-semi-bold-line-height)] font-[number:var(--text-small-semi-bold-font-weight)] tracking-[var(--text-small-semi-bold-letter-spacing)] text-[color:var(--color-schemes-color-scheme-1-text)] whitespace-nowrap [font-style:var(--text-small-semi-bold-font-style)]\"\n              to=\"/our-technology-u8226-desktop\"\n            >\n              Our Solutions\n            </Link>",
+          "line": 56,
+          "endLine": 61,
+          "column": 12,
+          "endColumn": 19,
+          "sourceFile": "src/screens/IndividualFeed/sections/FooterSection/FooterSection.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/CowNoseIdDesktop/sections/NavigationBarSection/NavigationBarSection.jsx:67:12-to-src/screens/OurTechnology/OurTechnology.jsx",
+      "source": "src/screens/CowNoseIdDesktop/CowNoseIdDesktop.jsx",
+      "target": "src/screens/OurTechnology/OurTechnology.jsx",
+      "data": {
+        "viaRoute": "/our-technology-u8226-desktop",
+        "trigger": {
+          "element": "<Link\n              to=\"/our-technology-u8226-desktop\"\n              className=\"font-text-regular-medium font-[number:var(--text-regular-medium-font-weight)] text-[#faf6eb] text-[length:var(--text-regular-medium-font-size)] tracking-[var(--text-regular-medium-letter-spacing)] leading-[var(--text-regular-medium-line-height)] whitespace-nowrap [font-style:var(--text-regular-medium-font-style)]\"\n            >\n              Explore\n            </Link>",
+          "line": 67,
+          "endLine": 72,
+          "column": 12,
+          "endColumn": 19,
+          "sourceFile": "src/screens/CowNoseIdDesktop/sections/NavigationBarSection/NavigationBarSection.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/CowNoseIdDesktop/sections/CallToActionSection/CallToActionSection.jsx:28:16-to-src/screens/ContactUsDesktop/ContactUsDesktop.jsx",
+      "source": "src/screens/CowNoseIdDesktop/CowNoseIdDesktop.jsx",
+      "target": "src/screens/ContactUsDesktop/ContactUsDesktop.jsx",
+      "data": {
+        "viaRoute": "/contact-us-u8226-desktop",
+        "trigger": {
+          "element": "<Link to=\"/contact-us-u8226-desktop\">\n                  <span className=\"font-text-regular-medium font-[number:var(--text-regular-medium-font-weight)] text-[length:var(--text-regular-medium-font-size)] tracking-[var(--text-regular-medium-letter-spacing)] leading-[var(--text-regular-medium-line-height)] [font-style:var(--text-regular-medium-font-style)]\">\n                    Contact Us\n                  </span>\n                </Link>",
+          "line": 28,
+          "endLine": 32,
+          "column": 16,
+          "endColumn": 23,
+          "sourceFile": "src/screens/CowNoseIdDesktop/sections/CallToActionSection/CallToActionSection.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/ContactUsDesktop/sections/NavbarSection/NavbarSection.jsx:67:12-to-src/screens/OurTechnology/OurTechnology.jsx",
+      "source": "src/screens/ContactUsDesktop/ContactUsDesktop.jsx",
+      "target": "src/screens/OurTechnology/OurTechnology.jsx",
+      "data": {
+        "viaRoute": "/our-technology-u8226-desktop",
+        "trigger": {
+          "element": "<Link\n              to=\"/our-technology-u8226-desktop\"\n              className=\"font-text-regular-medium font-[number:var(--text-regular-medium-font-weight)] text-[#faf6eb] text-[length:var(--text-regular-medium-font-size)] tracking-[var(--text-regular-medium-letter-spacing)] leading-[var(--text-regular-medium-line-height)] whitespace-nowrap [font-style:var(--text-regular-medium-font-style)]\"\n            >\n              Explore\n            </Link>",
+          "line": 67,
+          "endLine": 72,
+          "column": 12,
+          "endColumn": 19,
+          "sourceFile": "src/screens/ContactUsDesktop/sections/NavbarSection/NavbarSection.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/OurTechnology/sections/NavbarSection/NavbarSection.jsx:59:12-to-src/screens/OurTechnology/OurTechnology.jsx",
+      "source": "src/screens/OurTechnology/OurTechnology.jsx",
+      "target": "src/screens/OurTechnology/OurTechnology.jsx",
+      "data": {
+        "viaRoute": "/our-technology-u8226-desktop",
+        "trigger": {
+          "element": "<Link to=\"/our-technology-u8226-desktop\">\n              <span className=\"font-text-regular-medium font-[number:var(--text-regular-medium-font-weight)] text-[length:var(--text-regular-medium-font-size)] tracking-[var(--text-regular-medium-letter-spacing)] leading-[var(--text-regular-medium-line-height)] whitespace-nowrap [font-style:var(--text-regular-medium-font-style)]\">\n                Explore\n              </span>\n            </Link>",
+          "line": 59,
+          "endLine": 63,
+          "column": 12,
+          "endColumn": 19,
+          "sourceFile": "src/screens/OurTechnology/sections/NavbarSection/NavbarSection.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/OurTechnology/sections/HeroSection/HeroSection.jsx:37:14-to-src/screens/ContinuousPen/ContinuousPen.jsx",
+      "source": "src/screens/OurTechnology/OurTechnology.jsx",
+      "target": "src/screens/ContinuousPen/ContinuousPen.jsx",
+      "data": {
+        "viaRoute": "/continuous-pen-monitoring-u8226-desktop",
+        "trigger": {
+          "element": "<Link to=\"/continuous-pen-monitoring-u8226-desktop\">\n                <span className=\"font-text-regular-medium font-[number:var(--text-regular-medium-font-weight)] text-[color:var(--primitives-color-neutral-darkest)] text-[length:var(--text-regular-medium-font-size)] tracking-[var(--text-regular-medium-letter-spacing)] leading-[var(--text-regular-medium-line-height)] [font-style:var(--text-regular-medium-font-style)]\">\n                  Learn More\n                </span>\n              </Link>",
+          "line": 37,
+          "endLine": 41,
+          "column": 14,
+          "endColumn": 21,
+          "sourceFile": "src/screens/OurTechnology/sections/HeroSection/HeroSection.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/OurTechnology/sections/InnovationSection/InnovationSection.jsx:35:14-to-src/screens/CowNoseIdDesktop/CowNoseIdDesktop.jsx",
+      "source": "src/screens/OurTechnology/OurTechnology.jsx",
+      "target": "src/screens/CowNoseIdDesktop/CowNoseIdDesktop.jsx",
+      "data": {
+        "viaRoute": "/cow-nose-id-u8226-desktop",
+        "trigger": {
+          "element": "<Link to=\"/cow-nose-id-u8226-desktop\">\n                <span className=\"font-text-regular-medium font-[number:var(--text-regular-medium-font-weight)] text-[color:var(--primitives-color-neutral-darkest)] text-[length:var(--text-regular-medium-font-size)] tracking-[var(--text-regular-medium-letter-spacing)] leading-[var(--text-regular-medium-line-height)] [font-style:var(--text-regular-medium-font-style)]\">\n                  Learn More\n                </span>\n              </Link>",
+          "line": 35,
+          "endLine": 39,
+          "column": 14,
+          "endColumn": 21,
+          "sourceFile": "src/screens/OurTechnology/sections/InnovationSection/InnovationSection.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/OurTechnology/sections/DataSolutionsSection/DataSolutionsSection.jsx:60:14-to-src/screens/IndividualFeed/IndividualFeed.jsx",
+      "source": "src/screens/OurTechnology/OurTechnology.jsx",
+      "target": "src/screens/IndividualFeed/IndividualFeed.jsx",
+      "data": {
+        "viaRoute": "/individual-feed-intake-monitoring-u8226-desktop",
+        "trigger": {
+          "element": "<Link to=\"/individual-feed-intake-monitoring-u8226-desktop\">\n                <span className=\"font-text-regular-medium font-[number:var(--text-regular-medium-font-weight)] text-[color:var(--primitives-color-neutral-darkest)] text-[length:var(--text-regular-medium-font-size)] tracking-[var(--text-regular-medium-letter-spacing)] leading-[var(--text-regular-medium-line-height)] [font-style:var(--text-regular-medium-font-style)]\">\n                  Learn More\n                </span>\n              </Link>",
+          "line": 60,
+          "endLine": 64,
+          "column": 14,
+          "endColumn": 21,
+          "sourceFile": "src/screens/OurTechnology/sections/DataSolutionsSection/DataSolutionsSection.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/OurTechnology/sections/CallToActionSection/CallToActionSection.jsx:59:20-to-src/screens/ContinuousPen/ContinuousPen.jsx",
+      "source": "src/screens/OurTechnology/OurTechnology.jsx",
+      "target": "src/screens/ContinuousPen/ContinuousPen.jsx",
+      "data": {
+        "viaRoute": "/continuous-pen-monitoring-u8226-desktop",
+        "trigger": {
+          "element": "<Link to=\"/continuous-pen-monitoring-u8226-desktop\">\n                      <span className=\"font-text-regular-medium font-[number:var(--text-regular-medium-font-weight)] text-[color:var(--primitives-color-neutral-darkest)] text-[length:var(--text-regular-medium-font-size)] tracking-[var(--text-regular-medium-letter-spacing)] leading-[var(--text-regular-medium-line-height)] [font-style:var(--text-regular-medium-font-style)]\">\n                        Learn More\n                      </span>\n                    </Link>",
+          "line": 59,
+          "endLine": 63,
+          "column": 20,
+          "endColumn": 27,
+          "sourceFile": "src/screens/OurTechnology/sections/CallToActionSection/CallToActionSection.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/OurTechnology/sections/FooterSection/FooterSection.jsx:49:12-to-src/screens/ContactUsDesktop/ContactUsDesktop.jsx",
+      "source": "src/screens/OurTechnology/OurTechnology.jsx",
+      "target": "src/screens/ContactUsDesktop/ContactUsDesktop.jsx",
+      "data": {
+        "viaRoute": "/contact-us-u8226-desktop",
+        "trigger": {
+          "element": "<Link\n              className=\"font-text-small-semi-bold font-[number:var(--text-small-semi-bold-font-weight)] text-[length:var(--text-small-semi-bold-font-size)] leading-[var(--text-small-semi-bold-line-height)] text-[color:var(--color-schemes-color-scheme-1-text)] tracking-[var(--text-small-semi-bold-letter-spacing)] whitespace-nowrap [font-style:var(--text-small-semi-bold-font-style)]\"\n              to=\"/contact-us-u8226-desktop\"\n            >\n              Contact Us\n            </Link>",
+          "line": 49,
+          "endLine": 54,
+          "column": 12,
+          "endColumn": 19,
+          "sourceFile": "src/screens/OurTechnology/sections/FooterSection/FooterSection.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/OurTechnology/sections/FooterSection/FooterSection.jsx:56:12-to-src/screens/OurTechnology/OurTechnology.jsx",
+      "source": "src/screens/OurTechnology/OurTechnology.jsx",
+      "target": "src/screens/OurTechnology/OurTechnology.jsx",
+      "data": {
+        "viaRoute": "/our-technology-u8226-desktop",
+        "trigger": {
+          "element": "<Link\n              className=\"font-text-small-semi-bold font-[number:var(--text-small-semi-bold-font-weight)] text-[length:var(--text-small-semi-bold-font-size)] leading-[var(--text-small-semi-bold-line-height)] text-[color:var(--color-schemes-color-scheme-1-text)] tracking-[var(--text-small-semi-bold-letter-spacing)] whitespace-nowrap [font-style:var(--text-small-semi-bold-font-style)]\"\n              to=\"/our-technology-u8226-desktop\"\n            >\n              Our Solutions\n            </Link>",
+          "line": 56,
+          "endLine": 61,
+          "column": 12,
+          "endColumn": 19,
+          "sourceFile": "src/screens/OurTechnology/sections/FooterSection/FooterSection.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/ContinuousPen/sections/NavigationBarSection/NavigationBarSection.jsx:64:12-to-src/screens/OurTechnology/OurTechnology.jsx",
+      "source": "src/screens/ContinuousPen/ContinuousPen.jsx",
+      "target": "src/screens/OurTechnology/OurTechnology.jsx",
+      "data": {
+        "viaRoute": "/our-technology-u8226-desktop",
+        "trigger": {
+          "element": "<Link to=\"/our-technology-u8226-desktop\">\n              <span className=\"font-text-regular-medium font-[number:var(--text-regular-medium-font-weight)] text-[#faf6eb] text-[length:var(--text-regular-medium-font-size)] tracking-[var(--text-regular-medium-letter-spacing)] leading-[var(--text-regular-medium-line-height)] whitespace-nowrap [font-style:var(--text-regular-medium-font-style)]\">\n                Explore\n              </span>\n            </Link>",
+          "line": 64,
+          "endLine": 68,
+          "column": 12,
+          "endColumn": 19,
+          "sourceFile": "src/screens/ContinuousPen/sections/NavigationBarSection/NavigationBarSection.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/ContinuousPen/sections/HeaderSection/HeaderSection.jsx:40:14-to-src/screens/ContactUsDesktop/ContactUsDesktop.jsx",
+      "source": "src/screens/ContinuousPen/ContinuousPen.jsx",
+      "target": "src/screens/ContactUsDesktop/ContactUsDesktop.jsx",
+      "data": {
+        "viaRoute": "/contact-us-u8226-desktop",
+        "trigger": {
+          "element": "<Link\n                className=\"font-text-regular-medium text-[length:var(--text-regular-medium-font-size)] tracking-[var(--text-regular-medium-letter-spacing)] leading-[var(--text-regular-medium-line-height)] [font-style:var(--text-regular-medium-font-style)]\"\n                to=\"/contact-us-u8226-desktop\"\n              >\n                Contact Us\n              </Link>",
+          "line": 40,
+          "endLine": 45,
+          "column": 14,
+          "endColumn": 21,
+          "sourceFile": "src/screens/ContinuousPen/sections/HeaderSection/HeaderSection.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/ContinuousPen/sections/CallToActionSection/CallToActionSection.jsx:29:20-to-src/screens/OurTechnology/OurTechnology.jsx",
+      "source": "src/screens/ContinuousPen/ContinuousPen.jsx",
+      "target": "src/screens/OurTechnology/OurTechnology.jsx",
+      "data": {
+        "viaRoute": "/our-technology-u8226-desktop",
+        "trigger": {
+          "element": "<Link\n                      to=\"/our-technology-u8226-desktop\"\n                      className=\"font-text-regular-medium text-[length:var(--text-regular-medium-font-size)] tracking-[var(--text-regular-medium-letter-spacing)] leading-[var(--text-regular-medium-line-height)] font-[number:var(--text-regular-medium-font-weight)] [font-style:var(--text-regular-medium-font-style)]\"\n                    >\n                      Learn More\n                    </Link>",
+          "line": 29,
+          "endLine": 34,
+          "column": 20,
+          "endColumn": 27,
+          "sourceFile": "src/screens/ContinuousPen/sections/CallToActionSection/CallToActionSection.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/ContinuousPen/sections/CallToActionSection/CallToActionSection.jsx:42:20-to-src/screens/ContactUsDesktop/ContactUsDesktop.jsx",
+      "source": "src/screens/ContinuousPen/ContinuousPen.jsx",
+      "target": "src/screens/ContactUsDesktop/ContactUsDesktop.jsx",
+      "data": {
+        "viaRoute": "/contact-us-u8226-desktop",
+        "trigger": {
+          "element": "<Link\n                      to=\"/contact-us-u8226-desktop\"\n                      className=\"font-text-regular-medium text-[length:var(--text-regular-medium-font-size)] tracking-[var(--text-regular-medium-letter-spacing)] leading-[var(--text-regular-medium-line-height)] text-[color:var(--primitives-color-neutral-darkest)] font-[number:var(--text-regular-medium-font-weight)] [font-style:var(--text-regular-medium-font-style)]\"\n                    >\n                      Contact\n                    </Link>",
+          "line": 42,
+          "endLine": 47,
+          "column": 20,
+          "endColumn": 27,
+          "sourceFile": "src/screens/ContinuousPen/sections/CallToActionSection/CallToActionSection.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/ForInvestors/sections/NavbarSection/NavbarSection.jsx:64:12-to-src/screens/OurTechnology/OurTechnology.jsx",
+      "source": "src/screens/ForInvestors/ForInvestors.jsx",
+      "target": "src/screens/OurTechnology/OurTechnology.jsx",
+      "data": {
+        "viaRoute": "/our-technology-u8226-desktop",
+        "trigger": {
+          "element": "<Link to=\"/our-technology-u8226-desktop\">\n              <span className=\"font-text-regular-medium font-[number:var(--text-regular-medium-font-weight)] text-[length:var(--text-regular-medium-font-size)] tracking-[var(--text-regular-medium-letter-spacing)] leading-[var(--text-regular-medium-line-height)] whitespace-nowrap [font-style:var(--text-regular-medium-font-style)]\">\n                Explore\n              </span>\n            </Link>",
+          "line": 64,
+          "endLine": 68,
+          "column": 12,
+          "endColumn": 19,
+          "sourceFile": "src/screens/ForInvestors/sections/NavbarSection/NavbarSection.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/ForInvestors/sections/HeroSection/HeroSection.jsx:71:16-to-src/screens/OurTechnology/OurTechnology.jsx",
+      "source": "src/screens/ForInvestors/ForInvestors.jsx",
+      "target": "src/screens/OurTechnology/OurTechnology.jsx",
+      "data": {
+        "viaRoute": "/our-technology-u8226-desktop",
+        "trigger": {
+          "element": "<Link to=\"/our-technology-u8226-desktop\">\n                  <span className=\"font-text-regular-medium font-[number:var(--text-regular-medium-font-weight)] text-[color:var(--primitives-color-neutral-darkest)] text-[length:var(--text-regular-medium-font-size)] tracking-[var(--text-regular-medium-letter-spacing)] leading-[var(--text-regular-medium-line-height)] [font-style:var(--text-regular-medium-font-style)]\">\n                    Learn\n                  </span>\n                </Link>",
+          "line": 71,
+          "endLine": 75,
+          "column": 16,
+          "endColumn": 23,
+          "sourceFile": "src/screens/ForInvestors/sections/HeroSection/HeroSection.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/ForInvestors/sections/HeroSection/HeroSection.jsx:79:16-to-src/screens/ContactUsDesktop/ContactUsDesktop.jsx",
+      "source": "src/screens/ForInvestors/ForInvestors.jsx",
+      "target": "src/screens/ContactUsDesktop/ContactUsDesktop.jsx",
+      "data": {
+        "viaRoute": "/contact-us-u8226-desktop",
+        "trigger": {
+          "element": "<Link\n                  to=\"/contact-us-u8226-desktop\"\n                  className=\"flex items-center gap-2\"\n                >\n                  <span className=\"font-text-regular-medium font-[number:var(--text-regular-medium-font-weight)] text-[color:var(--primitives-color-neutral-darkest)] text-[length:var(--text-regular-medium-font-size)] tracking-[var(--text-regular-medium-letter-spacing)] leading-[var(--text-regular-medium-line-height)] [font-style:var(--text-regular-medium-font-style)]\">\n                    Connect\n                  </span>\n                  <ChevronRightIcon className=\"w-6 h-6\" />\n                </Link>",
+          "line": 79,
+          "endLine": 87,
+          "column": 16,
+          "endColumn": 23,
+          "sourceFile": "src/screens/ForInvestors/sections/HeroSection/HeroSection.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/ForInvestors/sections/CallToActionSection/CallToActionSection.jsx:30:20-to-src/screens/OurTechnology/OurTechnology.jsx",
+      "source": "src/screens/ForInvestors/ForInvestors.jsx",
+      "target": "src/screens/OurTechnology/OurTechnology.jsx",
+      "data": {
+        "viaRoute": "/our-technology-u8226-desktop",
+        "trigger": {
+          "element": "<Link to=\"/our-technology-u8226-desktop\">\n                      <span className=\"font-text-regular-medium font-[number:var(--text-regular-medium-font-weight)] text-[#faf6eb] text-[length:var(--text-regular-medium-font-size)] tracking-[var(--text-regular-medium-letter-spacing)] leading-[var(--text-regular-medium-line-height)] whitespace-nowrap [font-style:var(--text-regular-medium-font-style)]\">\n                        Learn More\n                      </span>\n                    </Link>",
+          "line": 30,
+          "endLine": 34,
+          "column": 20,
+          "endColumn": 27,
+          "sourceFile": "src/screens/ForInvestors/sections/CallToActionSection/CallToActionSection.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/ForInvestors/sections/CallToActionSection/CallToActionSection.jsx:42:20-to-src/screens/ContactUsDesktop/ContactUsDesktop.jsx",
+      "source": "src/screens/ForInvestors/ForInvestors.jsx",
+      "target": "src/screens/ContactUsDesktop/ContactUsDesktop.jsx",
+      "data": {
+        "viaRoute": "/contact-us-u8226-desktop",
+        "trigger": {
+          "element": "<Link to=\"/contact-us-u8226-desktop\">\n                      <span className=\"font-text-regular-medium font-[number:var(--text-regular-medium-font-weight)] text-[color:var(--primitives-color-neutral-darkest)] text-[length:var(--text-regular-medium-font-size)] tracking-[var(--text-regular-medium-letter-spacing)] leading-[var(--text-regular-medium-line-height)] whitespace-nowrap [font-style:var(--text-regular-medium-font-style)]\">\n                        Contact\n                      </span>\n                    </Link>",
+          "line": 42,
+          "endLine": 46,
+          "column": 20,
+          "endColumn": 27,
+          "sourceFile": "src/screens/ForInvestors/sections/CallToActionSection/CallToActionSection.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/ForInvestors/sections/FooterSection/FooterSection.jsx:42:12-to-src/screens/ContactUsDesktop/ContactUsDesktop.jsx",
+      "source": "src/screens/ForInvestors/ForInvestors.jsx",
+      "target": "src/screens/ContactUsDesktop/ContactUsDesktop.jsx",
+      "data": {
+        "viaRoute": "/contact-us-u8226-desktop",
+        "trigger": {
+          "element": "<Link\n              className=\"font-text-small-semi-bold font-[number:var(--text-small-semi-bold-font-weight)] text-[length:var(--text-small-semi-bold-font-size)] leading-[var(--text-small-semi-bold-line-height)] text-[color:var(--color-schemes-color-scheme-1-text)] tracking-[var(--text-small-semi-bold-letter-spacing)] whitespace-nowrap [font-style:var(--text-small-semi-bold-font-style)]\"\n              to=\"/contact-us-u8226-desktop\"\n            >\n              Contact Us\n            </Link>",
+          "line": 42,
+          "endLine": 47,
+          "column": 12,
+          "endColumn": 19,
+          "sourceFile": "src/screens/ForInvestors/sections/FooterSection/FooterSection.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/ForInvestors/sections/FooterSection/FooterSection.jsx:49:12-to-src/screens/OurTechnology/OurTechnology.jsx",
+      "source": "src/screens/ForInvestors/ForInvestors.jsx",
+      "target": "src/screens/OurTechnology/OurTechnology.jsx",
+      "data": {
+        "viaRoute": "/our-technology-u8226-desktop",
+        "trigger": {
+          "element": "<Link\n              className=\"font-text-small-semi-bold font-[number:var(--text-small-semi-bold-font-weight)] text-[length:var(--text-small-semi-bold-font-size)] leading-[var(--text-small-semi-bold-line-height)] text-[color:var(--color-schemes-color-scheme-1-text)] tracking-[var(--text-small-semi-bold-letter-spacing)] whitespace-nowrap [font-style:var(--text-small-semi-bold-font-style)]\"\n              to=\"/our-technology-u8226-desktop\"\n            >\n              Our Solutions\n            </Link>",
+          "line": 49,
+          "endLine": 54,
+          "column": 12,
+          "endColumn": 19,
+          "sourceFile": "src/screens/ForInvestors/sections/FooterSection/FooterSection.jsx"
+        }
+      }
+    }
+  ]
+}
