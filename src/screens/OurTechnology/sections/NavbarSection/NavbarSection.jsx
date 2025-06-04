@@ -25,7 +25,7 @@ export const NavbarSection = () => {
         {/* Logo section */}
         <div className="flex-1">
           <a
-            href="www.livestock.tech"
+            href="https://www.livestock.tech"
             rel="noopener noreferrer"
             target="_blank"
           >

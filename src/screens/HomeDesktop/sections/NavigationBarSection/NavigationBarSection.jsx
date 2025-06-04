@@ -30,7 +30,7 @@ export const NavigationBarSection = () => {
       <nav className="flex w-full items-center justify-between gap-8">
         <div className="flex-1">
           <a
-            href="www.livestock.tech"
+            href="https://www.livestock.tech"
             rel="noopener noreferrer"
             target="_blank"
           >
