@@ -24,7 +24,7 @@ export const LeadershipSection = () => {
                 <img
                   className="w-full h-auto object-cover"
                   alt="Leadership team"
-                  src="https://c.animaapp.com/LEM5cvaF/img/placeholder-image-15.png"
+                  src="/images/leadership-team.jpg"
                 />
               </div>
             </div>
