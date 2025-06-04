@@ -29,7 +29,7 @@ export const NavbarSection = () => {
       <div className="flex items-center justify-center gap-8 w-full">
         <div className="flex-1">
           <a
-            href="www.livestock.tech"
+            href="https://www.livestock.tech"
             rel="noopener noreferrer"
             target="_blank"
           >
