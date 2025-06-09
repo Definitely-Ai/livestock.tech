@@ -1,0 +1,1 @@
+export { CowNoseIdDesktop } from "./CowNoseIdDesktop";

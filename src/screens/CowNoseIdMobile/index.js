@@ -1,0 +1,1 @@
+export { CowNoseIdMobile } from "./CowNoseIdMobile";

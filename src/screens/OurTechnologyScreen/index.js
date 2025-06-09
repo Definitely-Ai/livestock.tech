@@ -1,0 +1,1 @@
+export { OurTechnologyScreen } from "./OurTechnologyScreen";
